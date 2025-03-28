@@ -11,7 +11,7 @@ html
     h1 Chat Room
 
     .chat-container#chat-container(
-      hx-get="chats"
+      hx-get="/messages/chats"
       hx-trigger="every 2s"
       hx-target="#chat-container"
       hx-swap="innerHTML"
