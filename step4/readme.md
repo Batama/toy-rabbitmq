@@ -2,7 +2,7 @@
 
 Requirements:
 - Complete step 3
-- SSE
+- Post message from client
 
 This step "modernizes" the subscriber client.
-HTMX & RabbitMQ & SSE
+HTMX & RabbitMQ
