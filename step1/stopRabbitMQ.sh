@@ -1,0 +1,1 @@
+docker rm $(docker stop $(docker ps -a -q --filter ancestor=rabbitmq:4-management))
