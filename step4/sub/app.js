@@ -19,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001']
+  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://4ks6kj3h-3000.asse.devtunnels.ms', 'https://4ks6kj3h-3001.asse.devtunnels.ms']
 }))
 app.use(logger('dev'));
 app.use(express.json());
